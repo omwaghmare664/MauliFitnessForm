@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
-
+@font-face {
+  font-family: poppins;
+  src: url('/Poppins-Regular.woff');
+}
 .gradientBg {
   background: linear-gradient(0deg, #efebff, #babbff);
+  font-family: poppins;
 }
 
 .smoothTransiotn
