@@ -280,7 +280,7 @@ export default function Page() {
               name='disorders' 
               value={formData.disorders}
               onChange={handleInputChange}
-              placeholder='जैसे, मधुमेह, थायराइड, शुगर' 
+              placeholder='जैसे, थायराइड, शुगर, आधी' 
               className='bg-gray-100 pt-2 px-4 py-3 w-full rounded-md outline-none border border-gray-300 focus:border-blue-500 transition-colors' 
             />
           </div>
