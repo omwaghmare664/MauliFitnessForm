@@ -267,9 +267,9 @@ export default function Page() {
               }`}
             >
               <option value="">Select your goal</option>
-              <option value="Weight Gain">Weight Gain</option>
               <option value="Weight Loss">Weight Loss</option>
-              <option value="Weight Maintain">Weight Maintain</option>
+              <option value="Weight Gain">Weight Gain</option>
+              <option value="Weight Maintain">Fitness</option>
             </select>
             <ErrorMessage error={errors.goal} />
           </div>

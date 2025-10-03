@@ -266,9 +266,9 @@ export default function Page() {
               }`}
             >
               <option value="">अपना लक्ष्य चुनें</option>
-              <option value="Weight Gain">वजन बढ़ाना</option>
               <option value="Weight Loss">वजन कम करना</option>
-              <option value="Weight Maintain">वजन बनाए रखना</option>
+              <option value="Weight Gain">वजन बढ़ाना</option>
+              <option value="Weight Maintain">फिटनेस मे रहणा </option>
             </select>
             <ErrorMessage error={errors.goal} />
           </div>
